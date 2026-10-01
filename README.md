@@ -39,14 +39,14 @@ The script is available in the repository as create_user.sh
 - Connected to the server remotely from VM Debian -> Ubuntu Server.
 
 4. Services
-Checked the status of SSH Service.
-Started/stopped/restarted services using systemctl.
-Verified that the required service was running correctly.
+- Checked the status of SSH Service.
+- Started/stopped/restarted services using systemctl.
+- Verified that the required service was running correctly.
 
 5. Firewall
-Configured UFW.
-Allowed the required ports: 22 & 80.
-Verified the active firewall rules.
+- Configured UFW.
+- Allowed the required ports: 22 & 80.
+- Verified the active firewall rules.
 
 ## Results
 
@@ -56,16 +56,16 @@ The server was successfully configured with basic user management, file permissi
 
 The following screenshots document the main configuration steps:
 
-User and group creation
-File permissions
-SSH service status
-Successful SSH connection
-UFW status
+- User and group creation
+- File permissions
+- SSH service status
+- Successful SSH connection
+- UFW status
 
 ## What I learned
 
-Basic Linux user and group administration
-Linux file ownership and permissions
-SSH remote administration
-Service management with systemctl
-Basic firewall configuration with UFW
+- Basic Linux user and group administration
+- Linux file ownership and permissions
+- SSH remote administration
+- Service management with systemctl
+- Basic firewall configuration with UFW
